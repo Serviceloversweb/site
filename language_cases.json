@@ -1,0 +1,35 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      "#menuHome" : "Home",
+      "#menuCases" : "Cases",
+      "#menuContact" : "Contact",
+      "#pageTitle" : "Cases",
+      "#subHeader" : "Here is a selection of cases where the use<br> of Servicelovers has elevated customer satisfaction",
+      "#caseKvikQuote" : "“I think it is pretty wild how much we have improved after we started using Servicelovers.”",
+      "#caseKvikEmployee" : "Store Manager / Kvik Køkkener",
+      "#caseGrillenQuote" : "“If we don’t deliver the customers will leave.”",
+      "#caseGrillenEmployee" : "Partner &amp; District Chief East at Grillen Burgerbar.",
+      "#caseSchaefQuote" : "“I have a tool that makes it possible to ensure that the employees get the recognition that they deserve.”",
+      "#caseSchaefEmployee" : "General Manager at Schæffergården",
+      "#contactHeader" : "Contact us if you want to hear more about the possibilities for your business"
+    },
+    "dk": {
+      "#menuHome" : "Hjem",
+      "#menuCases" : "Cases",
+      "#menuContact" : "Kontakt",
+      "#pageTitle" : "Cases",
+      "#subHeader" : "Her er et udvalg af cases hvor Servicelovers<br> er brugt til at løfte kundetilfredsheden",
+      "#caseKvikQuote" : "“Jeg synes at det er ret vildt hvor meget vi har rykket os efter vi fik Servicelovers.”",
+      "#caseKvikEmployee" :"Butikschef / Kvik Køkkener",
+      "#caseGrillenQuote" : "“Hvis ikke vi leverer så forlader kunderne os.”",
+      "#caseGrillenEmployee" : "Partner &amp; District Chef Øst hos Grillen Burgerbar",
+      "#caseSchaefQuote" : "“Jeg har nu et værktøj som sikrer at medarbejderne får den anerkendelse som de fortjener.”",
+      "#caseSchaefEmployee" : "General Manager hos Schæffergården",
+      "#contactHeader" : "Kontakt os hvis du vil høre mere om mulighederne for netop din virksomhed"
+    }
+  }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Servicelovers / Cases</title>
+  
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/jquery.MultiLanguage.min.js"></script>  
+  
+  <link rel="icon" type="image/png" href="favicon.ico" sizes="60x60">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Slick slider CSS -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+  
+  <!-- Custom styles -->
+  <link href="css/servicelovers.css" rel="stylesheet">
+  
+  <!-- Animate on scroll -->
+  <link href="css/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  
+   <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>        
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> 
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html">
+        <img src="img/sl-logo-white.svg" class="img-fluid" style="max-width: 180px" alt="Servicelovers">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html" id="menuHome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="solution.html" id="menuSolution">Solution</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cases" id="menuCases"><b>Cases</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact" id="menuContact">Contact</a>
+          </li>
+          <li class="nav-item">            
+            <a class="btn btn-primary btn-sm mx-0 mx-lg-3" href="#contact"><b>Admin Panel</b></a>
+          </li>
+          <li class="nav-item">
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/ico-globe-bright.svg" alt="Language" />
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" onclick="$.MultiLanguage('language_cases.json', 'en')">En</a>
+                <a class="dropdown-item" href="#" onclick="$.MultiLanguage('language_cases.json', 'dk')">Dk</a>
+                <!--a class="dropdown-item" href="#" onclick="$.MultiLanguage('language.json', 'hr')">Hr</a>
+                <a class="dropdown-item" href="#" onclick="$.MultiLanguage('language.json', 'de')">De</a-->
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="headerSubpage d-none d-lg-block"></header>
+  
+  <section class="subPageHeader pb-0">
+    <div class="container px-3 px-sm-5">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <h1 id="pageTitle">Cases</h1>
+          <h2 id="subHeader">Here is a selection of cases where the use<br> of Servicelovers has elevated customer satisfaction</h2>          
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section>
+    <div class="container p-0">
+      
+      <div class="row no-gutters">
+        <div class="col-lg-6 my-auto px-3 px-sm-5">
+          <h3 class="pb-4"><b id="caseKvikQuote">“I think it is pretty wild how much we have improved after we started using Servicelovers”</b></h3>
+          <div class="d-flex flex-row">
+            <div class="align-self-center">
+              <p class="float-right"><b>Steven Olsen</b><br>
+              <span class="font-weight-light" id="caseKvikEmployee">Butikschef / Kvik Køkkener</span>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-6 text-white my-auto p-4">
+            <img src="img/img-video-kvik.jpg" alt="Servicelovers case - Kvik" class="img-fluid my-5 video-btn grow-shadow" data-toggle="modal" data-src="https://www.youtube.com/embed/wviYY9PP62Y" data-target="#myModal">
+        </div>
+      </div>
+      
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white my-auto p-4 order-2 order-md-1">
+            <img src="img/img-video-grillen.jpg" alt="Servicelovers case - Grillen Burgerbar" class="img-fluid my-5 video-btn grow-shadow" data-toggle="modal" data-src="https://www.youtube.com/embed/oKk7j5cJLrE" data-target="#myModal">
+        </div>
+        <div class="col-lg-6 my-auto px-3 px-sm-5 order-1 order-md-2">
+          <h3 class="pb-4"><b id="caseGrillenQuote">“If we don’t deliver the customers will leave.”</b></h3>
+          <div class="d-flex flex-row">
+            <div class="align-self-center">
+              <p class="float-right"><b>Kim Juul</b><br>
+              <span class="font-weight-light" id="caseGrillenEmployee">Partner &amp; District Chief East at Grillen Burgerbar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row no-gutters">
+        <div class="col-lg-6 my-auto px-3 px-sm-5">
+          <h3 class="pb-4"><b id="caseSchaefQuote">“I have a tool that makes it possible to ensure that the employees get the recognition that they deserve.”</b></h3>
+          <div class="d-flex flex-row">
+            <div class="align-self-center">
+              <p class="float-right"><b>Peter Feddersen</b><br>
+              <span class="font-weight-light" id="caseSchaefEmployee">General Manager hos Schæffergården</span>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-6 text-white my-auto p-4">
+            <img src="img/img-video-schaeffergaarden.jpg" alt="Servicelovers case - Schæffergården" class="img-fluid my-5 video-btn grow-shadow" data-toggle="modal" data-src="https://www.youtube.com/embed/VyWmxE66z84" data-target="#myModal">
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+  <section id="contact" class="py-5">
+    <div class="container" data-aos="fade-in">
+      <div class="row">
+        <div class="col-12 col-lg-6 offset-lg-3 py-5">
+          <h2 style="font-weight: 300" id="contactHeader">Contact us if you want to hear more about the possibilities for your business</h2>
+          <a href="#contact"></a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-12 col-md-2 offset-md-3">                
+          <div class="p-3 px-lg-5">
+            <img src="img/img-luka.png" class="img-fluid" alt="Luka Tadic">
+          </div>
+          <div class="py-lg-3">
+            <div class="conNamePos">
+              <b>Luka Tadic</b><br>
+              <span>Regional Manager South East</span><br><br>
+            </div>
+            <b>+385 99 3434 374</b><br>
+            <a href="mailto:LT@servicelovers.com">LT@servicelovers.com</a>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-2">
+          <div class="p-3 px-lg-5">
+            <img src="img/img-cb.png" class="img-fluid" alt="Christian Brauner">
+          </div>
+          <div class="py-lg-3">
+            <div class="conNamePos">
+              <b>Christian Brauner</b><br>
+              <span>Founder and CEO</span><br><br>
+            </div>
+            <b>+45 21 85 16 64</b><br>            
+            <a href="mailto:cb@servicelovers.com">cb@servicelovers.com</a>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-2">
+          <div class="p-3 px-lg-5">
+            <img src="img/img-support.png" class="img-fluid" alt="General Support">
+          </div>
+          <div class="py-lg-3">
+            <div class="conNamePos">
+              <b>General support</b><br>
+            </div>
+            <b>+45 31 31 11 10</b><br>
+            <a href="mailto:contact@servicelovers.com">contact@servicelovers.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <hr class="py-2">
+      <div class="row py-3">
+        <div class="col-12">
+          
+          <p>&copy; Servicelovers ApS 2020</p>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    
+    $( document ).ready(function() {
+      
+      AOS.init();
+      
+      $.ajaxSetup({ cache: false });
+      
+      $.MultiLanguage('language.json');
+      
+      $('.single-item').slick({ 
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false
+      });
+      
+      // Gets the video src from the data-src on each button
+
+      var $videoSrc;
+      
+      $('.video-btn').click(function() {
+          $videoSrc = $(this).data( "src" );
+      });
+      
+      console.log($videoSrc);
+
+      // when the modal is opened autoplay it  
+      $('#myModal').on('shown.bs.modal', function (e) {
+
+        // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+        $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+      })
+
+      // stop playing the youtube video when I close the modal
+      $('#myModal').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#video").attr('src',$videoSrc); 
+      }) 
+      
+    });
+    
+  </script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  
+  <!-- Custom scripts -->
+  <script src="js/servicelovers.js"></script>
+  
+  <!-- Slick slider CSS -->
+  <script src="slick/slick.min.js"></script>
+  
+  <!-- Animate on scroll -->
+  <script src="js/aos.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      "#menuHome" : "Home",
+      "#menuSolution" : "Solution",
+      "#menuCases" : "Cases",
+      "#menuContact" : "Contact",
+      "#pageHeader": "Get motivated and service-oriented employees through personal recognition",
+      "#btnHero": "Get in contact",
+      "#catchPhrase": "We help some of Denmark's most service-oriented companies to measure and create the best customer experiences",
+      "#headerInsigt" : "<span>Insight</span> in customer service experiences",
+      "#insigtText" : "<p>Through the dashboard you can see what your customers think about each store and every employee in your organization.</p><p>Positive customer experiences can be celebrated, while critical feedback shows you exactly where and how you can optimize your knowledge.</p>",
+      "#realtimeDataHeader" : "Data in <span>real time</span>",
+      "#realtimeDataText" : "<p>As customers, we love to tell our opinion - if it is easy and fast!</p><p>With in-store stands and the mobile rating flow you get immediate customers rating and feedback while in the store. The customer can provide an assessment of the experience with a single click, and elaborate through multiple-choice and further comments.</p>",
+      "#motivatedHeader" : "More <span>motivated</span> employees",
+      "#motivatedText" : "<p>Personal positive recommendations can be given via the in-store stand or mobile rating flow directly to the individual frontline employee.</p><p>Managers, colleagues, customers and other users can “like” and comment on the recommendations, thus contributing further to a hugely motivating form of recognition that the staff have not experienced before.</p>",
+      "#contactHeader" : "Contact us if you want to hear more about the possibilities for your business"
+    },
+    "dk": {
+      "#menuHome" : "Hjem",
+      "#menuSolution" : "Løsning",
+      "#menuCases" : "Cases",
+      "#menuContact" : "Kontakt",
+      "#pageHeader": "Få motiverede og serviceorienterede medarbejdere gennem personlig anerkendelse",
+      "#btnHero": "Kontakt os",
+      "#catchPhrase": "Vi hjælper nogle af Danmarks mest serviceorienterede virksomheder med at måle og skabe de bedste kundeoplevelser",
+      "#headerInsigt" : "<span>Indsigt</span> i kundernes serviceoplevelser",
+      "#insigtText" : "<p>Via dashboardet kan du se hvad jeres kunder synes om hver enkelt butik, og hver enkelt medarbejder, i din organisation.</p><p>Positive kundeoplevelser kan fejres, mens kritisk feedback viser jer præcis hvor og hvordan I kan optimere kunderejsen.</p>",
+      "#realtimeDataHeader" : "Data i <span>realtid</span>",
+      "#realtimeDataText" : "<p>Som kunder elsker vi at fortælle vores mening - hvis det er enkelt og hurtigt!</p><p>Med in-store standere og det mobile rating flow får I kundernes umiddelbare vurdering og feedback mens de er i butikken. Kunden kan give en bedømmelse af oplevelsen med et enkelt klik, og uddybe gennem multiple-choice og yderligere kommentarer.</p>",
+      "#motivatedHeader" : "Mere <span>motiverede</span> medarbejdere",
+      "#motivatedText" : "<p>Personlige anbefalinger kan gives via in-store standeren og vores mobil rating flow, direkte til den enkelte frontline medarbejder.</p><p>Chefer, kolleger, kunder og andre brugere kan “like” og kommentere anbefalingerne, og dermed bidrage yderligere til en enormt motiverende form for anerkendelse som personalet ikke har oplevet før.</p>",
+      "#contactHeader" : "Kontakt os hvis du vil høre mere om mulighederne for netop din virksomhed"
+    },
+    "hr": {
+      "#pageHeader": "Pronađi motivirane i uslužno orijentirane zaposlenike kroz osobno prepoznavanje i konstruktivne povratne informacije od korisnika",
+      "#btnHero": "Kontaktiraj",
+      "#catchPhrase": "Mi pomažemo nekim od Danskih najviše uslužno orijentiranim tvrtkama da izmjere i stvore najbolja iskustva klijenata"
+    },
+    "de": {
+      "#pageHeader": "Holen Sie sich motivierte und serviceorientierte Mitarbeiter über persönliche Anerkenung und konstruktives Kunden Feedback",
+      "#btnHero": "Kontaktieren",
+      "#catchPhrase": "Wir helfen serviceorientierten Geschäften in der Schweiz die Kundenzufriedenheit zu messen und darüber hinaus ihren Kunden ein perfektes Erlebnis zu verschaffen"
+    }
+  }
+}
