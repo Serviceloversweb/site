@@ -325,6 +325,11 @@ section p {
     min-height: 775px;
     padding-top: 0;
     padding-bottom: 0;
+    background: url("../img/bg-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   header.masthead .header-content {
     margin-bottom: 0;
@@ -345,25 +350,6 @@ section p {
   }
   
 }
-
-
-/*------ -----*/
-
-.parallax {
-  /* The image used */
-  background-image: url("../img/img-qrBackground.jpg");
-
-  /* Full height */
-  height: 35%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-/*------ -----*/
 
 
 header.masthead {
@@ -467,6 +453,21 @@ section#contact .conNamePos {
   height: 60px;
 }
 
+
+.featureBox {
+  text-align: center;
+}
+.featureBox h3 {
+  color: #424668;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: normal;
+}
+.featureBox p {
+  font-size: 1.1em;
+  font-weight: 400;
+}
 
 /*---- The little scroll animation ----*/
 
