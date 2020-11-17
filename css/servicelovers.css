@@ -352,8 +352,9 @@ section p {
   section#contact {
     font-size: 0.95em !important;
   }
+  
   .sectionText h3 {
-    font-size: 2rem;
+    font-size: 2.5rem !important;
   }
   
 }
@@ -431,7 +432,7 @@ header.masthead .device-container .screen img {
 
 .sectionText h3 {
   font-weight: 900;
-  font-size: 2.75rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
   color: #424668;
 }
