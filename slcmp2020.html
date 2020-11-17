@@ -44,6 +44,20 @@
   <!-- Calendly link widget end -->
 
   
+  <style>
+    .btn-floating{
+      position:fixed;    
+      bottom:40px;
+      left: 50%;
+      width: 200px;
+      margin-left: -100px;
+      z-index: 1000;
+      box-shadow: 2px 2px 3px #999;
+    }
+  </style>
+  
+  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sltestcal/15min?primary_color=32b1ae'});return false;" class="btn btn-primary btn-xl btn-floating d-block d-sm-none">Book a demo</a>
+  
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -80,7 +94,7 @@
           </li>
         </ul>
         <div class="my-2 my-lg-0">
-           <a class="btn btn-primary btn-xl mx-0 mx-lg-3 js-scroll-trigger" href="#bookAdemo" ><b>Book a demo</b></a>
+           <a class="btn btn-primary btn-xl mx-0 mx-lg-3 js-scroll-trigger" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sltestcal/15min?primary_color=32b1ae'});return false;"><b>Book a demo</b></a>
         </div>
       </div>
     </div>
@@ -103,9 +117,9 @@
               Use these valuable insights to continuously monitor, discuss and optimize the customer experience in your restaurant.
             </p>
             <b>Restaurants using Servicelovers experience:</b><br><br>
-               <img src="img/ico-rocket.svg" alt="Icon Rocket" /> Growing revenue<br>
-               <img src="img/ico-heart.svg" alt="Icon Heart" /> Improved customer loyalty<br>
-               <img src="img/ico-handShake.svg" alt="Icon Handshake" /> Better employee retention<br><br>
+             <img src="img/ico-rocket.svg" alt="Icon Rocket" /> Growing revenue<br>
+             <img src="img/ico-heart.svg" alt="Icon Heart" /> Improved customer loyalty<br>
+             <img src="img/ico-handShake.svg" alt="Icon Handshake" /> Better employee retention<br><br>
             <!--a href="#bookAdemo" class="btn btn-primary btn-xl js-scroll-trigger mr-lg-3 mb-3" data-aos="fade-up" data-aos-delay="250">Book a demo</a-->
             <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sltestcal/15min?primary_color=32b1ae'});return false;" class="btn btn-primary btn-xl mr-lg-3 mb-3" data-aos="fade-up" data-aos-delay="250">Book a demo</a>
             <a href="#faq" class="btn btn-primary btn-xl js-scroll-trigger mb-3" data-aos="fade-up" data-aos-delay="350">FAQ</a>
@@ -113,7 +127,7 @@
         </div>
         
         <div class="col-12 offset-lg-0 col-lg-6 my-auto p-4 d-md-block">
-          <img src="img/img-video-hero.jpg" alt="Servicelovers" class="img-fluid my-lg-5 video-btn dropShadow" data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000" data-toggle="modal" data-src="https://www.youtube.com/embed/WFFMLoaj_6Y" data-target="#myModal">
+          <img src="img/img-video-hero.jpg" alt="Servicelovers" class="img-fluid my-lg-5 video-btn dropShadow" data-toggle="modal" data-src="https://www.youtube.com/embed/WFFMLoaj_6Y" data-target="#myModal">
         </div>
         
       </div>
