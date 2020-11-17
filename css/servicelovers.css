@@ -324,7 +324,6 @@ section p {
   .header-content h1 {
     font-weight: 900;
     font-size: 0.81em;
-    color: #424668;
   }
   .header-content p {
     font-size: 1.1em;
@@ -350,12 +349,11 @@ section p {
   header.masthead .device-container {
     max-width: 325px;
   }
-  
-  #catchPhrase {
-    
-  }
   section#contact {
     font-size: 0.95em !important;
+  }
+  .sectionText h3 {
+    font-size: 2rem;
   }
   
 }
@@ -389,7 +387,8 @@ header.masthead .device-container .screen img {
 
 .header-content h1 {
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 2.5em;
+  color: #424668;
 } 
 
 .subPageHeader h1 {
