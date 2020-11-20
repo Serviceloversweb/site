@@ -32,6 +32,11 @@
 </head>
 
 <body>
+  
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <!-- Calendly link widget end -->
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -65,7 +70,7 @@
           </li>
         </ul>
         <div class="my-2 my-lg-0">
-           <a class="btn btn-primary btn-xl mx-0 mx-lg-3 js-scroll-trigger" href="#bookAdemo" ><b>Book a demo</b></a>
+           <a class="btn btn-primary btn-xl mx-0 mx-lg-3 js-scroll-trigger" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sltestcal/15min?primary_color=32b1ae'});return false;"><b>Book a demo</b></a>
         </div>
       </div>
     </div>
@@ -77,7 +82,7 @@
         
         <div class="col-12 col-lg-6 order-2 order-lg-1 my-auto">
           <div class="header-content mx-auto text-center text-md-left" data-aos="fade-up">
-            <h1 class="mb-5">Fedt payoff loprem ipsum dolor sit amet, consectetur</h1>
+            <h1 class="mb-5">Good Service is Good Business</h1>
             <p>
               Tekst om “problemet” ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
@@ -96,98 +101,117 @@
       </div>
     </div>
   </header>
- 
-  <!--div class="container" id="clients" data-aos="fade-in">
-    <div class="row">
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_babysam.svg" class="img-fluid clientLogo" alt="Babysam" >
-      </div>
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_jack_and_jones.svg" class="img-fluid clientLogo" alt="Jack and Jones" >
-      </div>
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_bestseller.svg" class="img-fluid clientLogo" alt="Bestseller" >
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_danskoutlet.svg" class="img-fluid clientLogo" alt="Dansk Outlet" >
-      </div>
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_bluecity.png" class="img-fluid clientLogo" alt="Bluecity" >
-      </div>
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_grillenburgerbar.png" class="img-fluid clientLogo" alt="Grillen Burgerbar" >
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_marathonsport.png" class="img-fluid clientLogo" alt="Marathonsport" >
-      </div>
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_daellsbolighus.png" class="img-fluid clientLogo" alt="Daellsbolighus" >
-      </div>
-      <div class="col-4 col-sm-4">
-        <img src="img/logo_skousen.png" class="img-fluid clientLogo" alt="Skousen" >
-      </div>
-    </div>
-  </div-->
   
-  <section class="px-0 px-md-5 pb-0 pb-md-0 bgLight">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 my-0 my-md-5">
-          <h2>
-            We help some of Denmark's most service-oriented companies to measure and create the best customer experiences
-            <br><br>
-          </h2>
-          <div class="sectionText text-center">
-            <h3>
-              Here are what some of our customers are saying
-            </h3>
+  <div id="carouselExampleIndicators" class="carousel slide d-block d-sm-none" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="background-color:#666981"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" style="background-color:#666981"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" style="background-color:#666981"></li>
+    </ol>
+    <div class="carousel-inner bgLight">
+      <div class="carousel-item active p-4">
+        <div class="testimonialBox dropShadow">
+          <p>
+            “I think it is pretty wild how much we have improved after we started using Servicelovers”
+          </p>
+          <div class="flex-container">
+            <div><img src="img/quote_stevenOlsen.png" alt="Steven Olsen" /></div>
+            <div>
+              <h4>Steven Olsen</h4>
+              <div>Butikschef / Kvik Køkkener</div>
+            </div>
+          </div>   
+        </div>
+      </div>
+      <div class="carousel-item p-4">
+        <div class="testimonialBox dropShadow">
+          <p>
+            “If we don’t deliver the customers will leave.”
+          </p>
+          <div class="flex-container">
+            <div><img src="img/quote_kimJuul.png" alt="Kim Juul" /></div>
+            <div>
+              <h4>Kim Juul</h4>
+              <div>Partner &amp; District Chief East at Grillen Burgerbar</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item p-4">
+        <div class="testimonialBox dropShadow">
+          <p>
+            “I have a tool that makes it possible to ensure that the employees get the recognition that they deserve.”
+          </p>
+          <div class="flex-container">
+            <div><img src="img/quote_peterFeddersen.png" alt="Peter Feddersen" /></div>
+            <div>
+              <h4>Peter Feddersen</h4>
+              <div>General Manager hos Schæffergården</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="color:red">
+      <img src="img/ico-arrowLeft.svg" alt="arrow previous">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="color:red">
+      <img src="img/ico-arrowRight.svg" alt="arrow next">
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
   
-  <section class="bgLight">
+  <section class="bgLight py-2 py-lg-5 d-none d-sm-block">
     <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center pb-2 pb-lg-5">
+        <div class="sectionText text-center">
+          <h3>
+            Here is what some of our<br>customers are saying
+          </h3>
+        </div>
+      </div>
       <div class="row justify-content-center">
-        <div class="col-lg-3">
+        <div class="col-lg-4 pb-2">
           <div class="testimonialBox dropShadow">
-            <h4>Steven Olsen</h4>
-            <div>Butikschef / Kvik Køkkener</div>
             <p>
               “I think it is pretty wild how much we have improved after we started using Servicelovers”
             </p>
+            <div class="flex-container">
+              <div><img src="img/quote_stevenOlsen.png" alt="Steven Olsen" /></div>
+              <div>
+                <h4>Steven Olsen</h4>
+                <div>Butikschef / Kvik Køkkener</div>
+              </div>
+            </div>   
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4 pb-2">
            <div class="testimonialBox dropShadow">
-            <h4>Kim Juul</h4>
-            <div>Partner &amp; District Chief East at Grillen Burgerbar</div>
             <p>
               “If we don’t deliver the customers will leave.”
             </p>
+            <div class="flex-container">
+              <div><img src="img/quote_kimJuul.png" alt="Kim Juul" /></div>
+              <div>
+                <h4>Kim Juul</h4>
+                <div>Partner &amp; District Chief East at Grillen Burgerbar</div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4 pb-2">
           <div class="testimonialBox dropShadow">
-            <h4>Peter Feddersen</h4>
-            <div>General Manager hos Schæffergården</div>
             <p>
               “I have a tool that makes it possible to ensure that the employees get the recognition that they deserve.”
             </p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="testimonialBox dropShadow">
-            <h4>XXX</h4>
-            <div>Flammen</div>
-            <p>
-              “With Servicelovers we get to find the unsatisfied guests immediately - and we get to turn them into satisfied guests before they leave the restaurant”
-            </p>
+            <div class="flex-container">
+              <div><img src="img/quote_peterFeddersen.png" alt="Peter Feddersen" /></div>
+              <div>
+                <h4>Peter Feddersen</h4>
+                <div>General Manager hos Schæffergården</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -213,7 +237,7 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 pt-4">
-          <img src="img/img-realTime.png" class="img-fluid dropShadow" alt="Real time data" data-aos="fade-left">
+          <img src="img/img-realTime.png" class="img-fluid dropShadow" alt="Real time data" data-aos="fade-up">
         </div>
       </div>
     </div>
@@ -229,25 +253,32 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="featureBox">
             <img src="img/featureIcon-people.png" class="img-fluid w-50" alt="" />
             <h3>Employee motivation</h3>
             <p>Cultural improvements with focus on employee motivation and engagement</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
            <div class="featureBox">
              <img src="img/featureIcon-graph.png" class="img-fluid w-50" alt="" />
             <h3>More guests with good publicity</h3>
             <p>Encourage happy customers to rate you on e.g. Tripadvisor or Trustpilot</p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="featureBox">
             <img src="img/featureIcon-stop.png" class="img-fluid w-50" alt="" />
             <h3>Stop dissatisfied guests</h3>
             <p>Stop dissatisfied guests before they leave and turn dissatisfaction into satisfaction</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="featureBox">
+            <img src="img/featureIcon-locate.png" class="img-fluid w-50" alt="" />
+            <h3>Optimize</h3>
+            <p>Optimize the customer experience by easily locating what your customers are not happy with</p>
           </div>
         </div>
       </div>
@@ -258,7 +289,7 @@
     <div class="container my-5">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2">
-          <img src="img/img-adminPanel.png" class="img-fluid dropShadow" alt="Admin Panel" data-aos="fade-left">
+          <img src="img/img-adminPanel.png" class="img-fluid dropShadow" alt="Admin Panel" data-aos="fade-up">
         </div>
         <div class="col-12 col-md-6 col-lg-6 order-2 order-md-1">
           <div class="sectionText" data-aos="fade-in">
@@ -296,7 +327,7 @@
           
         </div-->
         <div class="col-12 col-md-4 col-lg-4 px-4 order-3 order-md-1">
-          <img src="img/bg-valueprop.png" class="img-fluid" alt="Phones" data-aos="fade-right" />
+          <img src="img/bg-valueprop.png" class="img-fluid" alt="Phones" data-aos="fade-up" />
         </div>
         
         <!--div class="col-0 col-md-1 col-lg-1 d-none d-md-block order-2 order-md-2"></div-->
@@ -320,6 +351,56 @@
       </div>
     </div>
   </section>
+  
+  <section class="px-0 px-md-5 pb-0 pb-md-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 my-0 my-md-5">
+          <h2>
+            We help some of Denmark's most service-oriented companies to measure and create the best customer experiences
+            <br><br>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="container pb-5" id="clients" data-aos="fade-in">
+    <div class="row">
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_babysam.svg" class="img-fluid clientLogo" alt="Babysam" >
+      </div>
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_jack_and_jones.svg" class="img-fluid clientLogo" alt="Jack and Jones" >
+      </div>
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_bestseller.svg" class="img-fluid clientLogo" alt="Bestseller" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_danskoutlet.svg" class="img-fluid clientLogo" alt="Dansk Outlet" >
+      </div>
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_bluecity.png" class="img-fluid clientLogo" alt="Bluecity" >
+      </div>
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_grillenburgerbar.png" class="img-fluid clientLogo" alt="Grillen Burgerbar" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_marathonsport.png" class="img-fluid clientLogo" alt="Marathonsport" >
+      </div>
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_daellsbolighus.png" class="img-fluid clientLogo" alt="Daellsbolighus" >
+      </div>
+      <div class="col-4 col-sm-4">
+        <img src="img/logo_skousen.png" class="img-fluid clientLogo" alt="Skousen" >
+      </div>
+    </div>
+  </div>
+  
   
   <section id="faq" class="bgLight">
     <div class="container">
@@ -403,23 +484,30 @@
     </div>
   </section>
   
-  <section id="bookAdemo" class="py-5" style="background-color: #fbfcfd">
+  <section>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-12">
+        <div class="col-12 col-lg-6 offset-lg-3 py-5">
           
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/sltestcal/30min?primary_color=32b1ae" style="min-width:320px;height:630px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-            <!-- Calendly inline widget end -->
+          <form action="https://formspree.io/f/mqkgljob" method="POST">
+            <label>
+              Your email:
+              <input type="text" name="_replyto">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
+          </form>
           
         </div>
       </div>
     </div>
   </section>
-  
-  
-
   
   <section id="contact" class="py-5">
     <div class="container">
@@ -502,7 +590,9 @@
            $( $(this).find(".faqIco img") ).attr("src", "img/ico-minus.svg" );
         }
 
-      });  
+      });
+      
+      $('.carousel').carousel()
       
     });    
     

@@ -252,8 +252,17 @@ section p {
   font-size: 1.2em;
 }
 
-.bgCases {
+.bgCasesRestaurants {
   background: url(../img/bg-casesRestaurants.jpg);
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F0F3F9;
+}
+
+.bgCases {
+  background: url(../img/bg-cases.jpg);
   height: 320px;
   background-position: center;
   background-repeat: no-repeat;
